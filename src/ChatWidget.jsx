@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './ChatWidget.css';
 
 const ChatWidget = ({ propertyId }) => {
   const [open, setOpen] = useState(false);
