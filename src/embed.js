@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import ChatWidget from './ChatWidget';
+import './ChatWidget.css'; 
 
 window.renderChatWidget = function ({ propertyId }) {
   const container = document.createElement('div');
